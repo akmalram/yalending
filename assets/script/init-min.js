@@ -49,35 +49,6 @@ function initSmallPopup(e) {
     })
 }
 
-function initPaymentPopup(e) {
-    (e = $(e)).find(".payment-popup__tab-control").click(function() {
-        $(".payment-popup [data-index]").removeClass("active"), $(".payment-popup [data-index=" + $(this).attr("data-index") + "]").addClass("active")
-    }), e.find(".payment-popup__close").click(function() {
-        $.fancybox.close()
-    }), $(".individual-block-payment .payment-popup__rate").click(function() {
-        $(".individual-block-payment .payment-popup__rate").removeClass("active"), $(this).addClass("active");
-        var e = $(this).find(".payment-popup__rate-price").html().match(/\d*/g).join("");
-        $(".payment-popup__main .payment-form form input[name=sum]").val(e), $(".payment-popup__main .payment-form input[name=sum]").addClass("action"), setTimeout(function() {
-            $(".payment-popup__main .payment-form input[name=sum]").removeClass("action")
-        }, 250)
-    }), $(".legal-block-payment .payment-popup__rate").click(function() {
-        $(".legal-block-payment .payment-popup__rate").removeClass("active"), $(this).addClass("active");
-        var e = $(this).find(".payment-popup__rate-price").html().match(/\d*/g).join("");
-        $(".payment-popup__main .section .form input[name=sum]").val(e)
-    }), $(".legal-block-payment .urid-form-prefix input").change(function() {
-        $(".legal-block-payment .urid-form-prefix input:checked").val() - 1 ? $(".payment-popup__main .section .form input[name=fio],.payment-popup__main .section .form input[name=kpp]").css("opacity", 0) : $(".payment-popup__main .section .form input[name=fio],.payment-popup__main .section .form input[name=kpp]").css("opacity", 1)
-    }), $(".legal-block-payment .copy-link span").click(function() {
-        var e = $(".payment-popup__main .section .form input[name=ur_addr]").val();
-        $(".payment-popup__main .section .form input[name=post_addr]").val(e)
-    }), modules.get("component.forms", "constructor")($(".payment-popup__main .section .form")), modules.get("component.textual-popup", "init")(e)
-}
-
-function initPayment(e) {
-    (e = $(e)).find("[data-payment]").click(function(e) {
-        modules.get("complex.popups", "open-popup")($(".payment-popup"))
-    })
-}
-
 function component__scrollBlocksShow() {
     function e(e) {
         (e = $(e)).addClass("visible"), e.attr("data-scroller-action") && window[$(e).attr("data-scroller-action")](e)
@@ -278,13 +249,6 @@ function initWorkSchedule(e) {
             } while (i !== (i = s() / l) && 1 !== i && --a)
         }
         return n && (c = +c || +l || 0, o = n[1] ? c + (n[1] + 1) * n[2] : +n[2], r && (r.unit = u, r.start = c, r.end = o)), o
-    }
-
-    function m(e) {
-        var t, n = e.ownerDocument,
-            r = e.nodeName,
-            o = He[r];
-        return o || (t = n.body.appendChild(n.createElement(r)), o = fe.css(t, "display"), t.parentNode.removeChild(t), "none" === o && (o = "block"), He[r] = o, o)
     }
 
     function y(e, t) {
@@ -4430,48 +4394,7 @@ $("#container-for-svg").append(decorative_svg_for_slider), $("#container-for-svg
                     }
                 }
 
-                function l(t) {
-                    if (!g.aborted && !A) {
-                        if ((_ = o(v)) || (r("cannot access response document"), t = Y), t === k && g) return g.abort("timeout"), void j.reject(g, "timeout");
-                        if (t == Y && g) return g.abort("server abort"), void j.reject(g, "error", "server abort");
-                        if (_ && _.location.href != d.iframeSrc || x) {
-                            v.detachEvent ? v.detachEvent("onload", l) : v.removeEventListener("load", l, !1);
-                            var n, i = "success";
-                            try {
-                                if (x) throw "timeout";
-                                var a = "xml" == d.dataType || _.XMLDocument || e.isXMLDoc(_);
-                                if (r("isXml=" + a), !a && window.opera && (null === _.body || !_.body.innerHTML) && --D) return r("requeing onLoad callback, DOM not available"), void setTimeout(l, 250);
-                                var s = _.body ? _.body : _.documentElement;
-                                g.responseText = s ? s.innerHTML : null, g.responseXML = _.XMLDocument ? _.XMLDocument : _, a && (d.dataType = "xml"), g.getResponseHeader = function(e) {
-                                    return {
-                                        "content-type": d.dataType
-                                    } [e.toLowerCase()]
-                                }, s && (g.status = Number(s.getAttribute("status")) || g.status, g.statusText = s.getAttribute("statusText") || g.statusText);
-                                var u = (d.dataType || "").toLowerCase(),
-                                    c = /(json|script|text)/.test(u);
-                                if (c || d.textarea) {
-                                    var p = _.getElementsByTagName("textarea")[0];
-                                    if (p) g.responseText = p.value, g.status = Number(p.getAttribute("status")) || g.status, g.statusText = p.getAttribute("statusText") || g.statusText;
-                                    else if (c) {
-                                        var h = _.getElementsByTagName("pre")[0],
-                                            m = _.getElementsByTagName("body")[0];
-                                        h ? g.responseText = h.textContent ? h.textContent : h.innerText : m && (g.responseText = m.textContent ? m.textContent : m.innerText)
-                                    }
-                                } else "xml" == u && !g.responseXML && g.responseText && (g.responseXML = M(g.responseText));
-                                try {
-                                    Q = O(g, u, d)
-                                } catch (e) {
-                                    i = "parsererror", g.error = n = e || i
-                                }
-                            } catch (e) {
-                                r("error caught: ", e), i = "error", g.error = n = e || i
-                            }
-                            g.aborted && (r("upload aborted"), i = null), g.status && (i = g.status >= 200 && g.status < 300 || 304 === g.status ? "success" : "error"), "success" === i ? (d.success && d.success.call(d.context, Q, "success", g), j.resolve(g.responseText, "success", g), f && e.event.trigger("ajaxSuccess", [g, d])) : i && (void 0 === n && (n = g.statusText), d.error && d.error.call(d.context, g, i, n), j.reject(g, "error", n), f && e.event.trigger("ajaxError", [g, d, n])), f && e.event.trigger("ajaxComplete", [g, d]), f && !--e.active && e.event.trigger("ajaxStop"), d.complete && d.complete.call(d.context, g, i), A = !0, d.timeout && clearTimeout(T), setTimeout(function() {
-                                d.iframeTarget ? y.attr("src", d.iframeSrc) : y.remove(), g.responseXML = null
-                            }, 100)
-                        }
-                    }
-                }
+
                 var u, p, d, f, m, y, v, g, b, w, x, T, P = c[0],
                     j = e.Deferred();
                 if (j.abort = function(e) {
