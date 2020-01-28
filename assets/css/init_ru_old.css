@@ -40,7 +40,7 @@ main {
 .rates-block__footer-button,
 .utp-form__button,
 footer .last-row .friendship .newsletter .enter button {
-    background: #ffd616;
+    background: #438fff;
     cursor: pointer
 }
 
@@ -62,9 +62,9 @@ footer .last-row .friendship .newsletter .enter button {
 .rates-block__footer-button:hover,
 .utp-form__button:hover,
 footer .last-row .friendship .newsletter .enter button:hover {
-    background: #fff838;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: 5px 5px 20px -5px #438fff;
+    box-shadow: 5px 5px 20px -5px #438fff;
 }
 
 #content-for-popup-about-us-html .row:nth-child(5) .button,
@@ -306,7 +306,7 @@ footer .contacts .list .item .icon {
 
 footer .contacts .list .item .icon svg {
     fill: transparent;
-    stroke: #ffd616;
+    stroke: #438fff;
     stroke-width: 2px;
     height: 32px;
     width: 35px
@@ -475,7 +475,7 @@ footer .last-row .friendship .newsletter .head {
 }
 
 .contact-popup .button__get {
-    background: #ffd616;
+    background: #438fff;
     height: 51px;
     width: 100%;
     max-width: 304px;
@@ -584,8 +584,8 @@ footer .last-row .lang .item {
 }
 
 footer .last-row .lang .item.active {
-    background: #ffd616;
-    color: #1f1a17
+    background: #438fff;
+    color: #fff;
 }
 
 footer .last-row .lang .item:nth-child(2).active {
@@ -736,15 +736,15 @@ form .confirm-data-privacy .stylised-checkbox {
     vertical-align: top;
     cursor: pointer;
     float: none !important;
-    -webkit-box-shadow: inset 0 0 0 1px #ffd616 !important;
-    box-shadow: inset 0 0 0 1px #ffd616 !important;
+    -webkit-box-shadow: inset 0 0 0 1px #438fff !important;
+    box-shadow: inset 0 0 0 1px #438fff !important;
     padding-top: 3px;
     padding-left: 4px;
     text-align: left
 }
 
 form .confirm-data-privacy input:checked+.stylised-checkbox {
-    background: #ffd616
+    background: #438fff
 }
 
 form .confirm-data-privacy input:checked+.stylised-checkbox .icon {
@@ -1075,7 +1075,7 @@ a {
     border-width: 1px 1px 1px 2px;
     border-color: #555;
     border-radius: 5px;
-    background-color: #ffd616;
+    background-color: #438fff;
     -webkit-box-shadow: inset 0 0 0 1px #fefefe;
     box-shadow: inset 0 0 0 1px #fefefe;
     opacity: .7;
@@ -1087,7 +1087,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
     border-width: 1px 1px 1px 2px;
     border-color: #555;
-    background-color: #fff838
+    background-color: #438eff;
 }
 
 ::-webkit-scrollbar-track {
@@ -1223,7 +1223,7 @@ a {
 .twentytwenty-vertical .twentytwenty-handle:before {
     content: " ";
     display: block;
-    background: #ffd616;
+    background: #438fff;
     position: absolute;
     z-index: 30
 }
@@ -1398,35 +1398,35 @@ a {
     box-shadow: 0 0 12px rgba(51, 51, 51, .5);
     z-index: 40;
     cursor: pointer;
-    background: #ffd616
+    background: #438fff
 }
 
 .twentytwenty-horizontal .twentytwenty-handle:before {
     bottom: 50%;
     margin-bottom: 40px;
-    -webkit-box-shadow: 0 16px 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5);
-    box-shadow: 0 16px 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5)
+    -webkit-box-shadow: 0 16px 0 #438fff, 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: 0 16px 0 #438fff, 0 0 12px rgba(51, 51, 51, .5)
 }
 
 .twentytwenty-horizontal .twentytwenty-handle:after {
     top: 50%;
     margin-top: 40px;
-    -webkit-box-shadow: 0 -16px 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5);
-    box-shadow: 0 -16px 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5)
+    -webkit-box-shadow: 0 -16px 0 #438fff, 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: 0 -16px 0 #438fff, 0 0 12px rgba(51, 51, 51, .5)
 }
 
 .twentytwenty-vertical .twentytwenty-handle:before {
     left: 50%;
     margin-left: 22px;
-    -webkit-box-shadow: 3px 0 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5);
-    box-shadow: 3px 0 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5)
+    -webkit-box-shadow: 3px 0 0 #438fff, 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: 3px 0 0 #438fff, 0 0 12px rgba(51, 51, 51, .5)
 }
 
 .twentytwenty-vertical .twentytwenty-handle:after {
     right: 50%;
     margin-right: 22px;
-    -webkit-box-shadow: -3px 0 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5);
-    box-shadow: -3px 0 0 #ffd616, 0 0 12px rgba(51, 51, 51, .5)
+    -webkit-box-shadow: -3px 0 0 #438fff, 0 0 12px rgba(51, 51, 51, .5);
+    box-shadow: -3px 0 0 #438fff, 0 0 12px rgba(51, 51, 51, .5)
 }
 
 .twentytwenty-left-arrow {
@@ -1700,7 +1700,7 @@ body .ui-tooltip {
 }
 
 .global-navigate .menu .anchors .item.active {
-    background: #ffd616;
+    background: #438fff;
     color: #000
 }
 
@@ -1805,7 +1805,7 @@ body .ui-tooltip {
     height: 53px;
     width: 53px;
     border-radius: 100%;
-    background: #ffd616;
+    background: #438fff;
     position: absolute;
     left: 27px;
     top: 13px;
@@ -1832,7 +1832,7 @@ body .ui-tooltip {
     height: 53px;
     width: 53px;
     border-radius: 100%;
-    background: #ffd616;
+    background: #438fff;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2004,7 +2004,7 @@ body .ui-tooltip {
 }
 
 #menu .anchors .item.active {
-    background: #ffd616;
+    background: #438fff;
     color: #000
 }
 
@@ -2054,7 +2054,7 @@ body .ui-tooltip {
 }
 
 #menu .controls .lang .item.active {
-    background: #ffd616
+    background: #438fff
 }
 
 #menu .controls .close {
@@ -2097,7 +2097,7 @@ body .ui-tooltip {
     height: 53px;
     width: 53px;
     border-radius: 100%;
-    background: #ffd616;
+    background: #438fff;
     position: absolute;
     left: 27px;
     top: 11px;
@@ -2123,7 +2123,7 @@ body .ui-tooltip {
     height: 53px;
     width: 53px;
     border-radius: 100%;
-    background: #ffd616;
+    background: #438fff;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -2268,8 +2268,8 @@ body .ui-tooltip {
     font-weight: 700;
     text-transform: uppercase;
     color: #151515;
-    -webkit-box-shadow: 0 6px 0 #ffd616;
-    box-shadow: 0 6px 0 #ffd616;
+    -webkit-box-shadow: 0 6px 0 #438fff;
+    box-shadow: 0 6px 0 #438fff;
     padding-bottom: 5px
 }
 
@@ -2674,7 +2674,7 @@ body .ui-tooltip {
     border-radius: 100%;
     height: 20px;
     width: 20px;
-    background: #ffd616
+    background: #438fff
 }
 
 .landing-advantages .value .item .head .after:after,
@@ -2691,16 +2691,16 @@ body .ui-tooltip {
 .landing-advantages .value .item .head .after:before {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 0 0 0 1px rgba(255, 214, 22, .35);
-    box-shadow: 0 0 0 1px rgba(255, 214, 22, .35);
+    -webkit-box-shadow: 0 0 0 1px #438eff71;
+    box-shadow: 0 0 0 1px #438eff71;
     opacity: 0
 }
 
 .landing-advantages .value .item .head .after:after {
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -webkit-box-shadow: 0 0 0 1px rgba(255, 214, 22, .2);
-    box-shadow: 0 0 0 1px rgba(255, 214, 22, .2)
+    -webkit-box-shadow: 0 0 0 1px #438eff71;
+    box-shadow: 0 0 0 1px #438eff71
 }
 
 .landing-advantages .value .item .text {
@@ -2861,7 +2861,7 @@ body .ui-tooltip {
 }
 
 .interjection .decoration .wrap svg.visible {
-    fill: #ffd616;
+    fill: #438fff;
     stroke: transparent;
     stroke-dasharray: 100% 0
 }
@@ -2897,7 +2897,7 @@ body .ui-tooltip {
 .work-schedule {
     position: relative;
     height: 1202px;
-    /*background:url(//static.yalanding.ru/assets/images/something-company.jpg);*/
+    /*background:url(http://weblife.uz/assets/images/something-company.jpg);*/
     background: bottom #f8f8fa;
     background-size: auto 100%;
     padding-top: 170px
@@ -2975,9 +2975,9 @@ body .ui-tooltip {
 }
 
 .work-schedule .head .item.active .counter {
-    background: #ffd616;
-    -webkit-box-shadow: 0 0 12px rgba(255, 214, 22, .7);
-    box-shadow: 0 0 12px rgba(255, 214, 22, .7)
+    background: #438eff71;
+    -webkit-box-shadow: 0 0 12px #438eff71;
+    box-shadow: 0 0 12px #438eff71
 }
 
 .work-schedule .head .item.active .text {
@@ -3042,7 +3042,7 @@ body .ui-tooltip {
     float: left;
     font-size: 342px;
     font-weight: 800;
-    color: #ffd616;
+    color: #438fff;
     margin-right: 19px;
     opacity: 0;
     -webkit-transition: all .6s linear;
@@ -3251,7 +3251,7 @@ body .ui-tooltip {
 .work-schedule .main.visible .slide.active .decoration svg * {
     stroke: transparent;
     stroke-dasharray: 100% 0;
-    fill: #ffd616
+    fill: #438fff
 }
 
 .work-schedule .afterword {
@@ -3468,7 +3468,7 @@ body .ui-tooltip {
 }
 
 .full-contact {
-    /*background:url(//static.yalanding.ru/assets/images/something-dude.jpg);*/
+    /*background:url(http://weblife.uz/assets/images/something-dude.jpg);*/
     background: bottom #f8f8fa;
     background-size: auto 100%;
     padding-top: 176px;
@@ -3589,7 +3589,7 @@ body .ui-tooltip {
 }
 
 .full-contact .decoration svg.visible {
-    fill: #ffd616;
+    fill: #438fff;
     stroke: transparent;
     stroke-dasharray: 100% 0
 }
@@ -3643,7 +3643,7 @@ body .ui-tooltip {
     height: 205px;
     position: relative;
     float: left;
-    background: url(//static.yalanding.ru/assets/images/artnet-video-background.jpg) center no-repeat;
+    background: url(http://weblife.uz/assets/images/artnet-video-background.jpg) center no-repeat;
     background-size: cover;
     margin-top: 4px;
     margin-left: 93px;
@@ -3675,7 +3675,7 @@ body .ui-tooltip {
     transform: translate(-50%, -50%);
     height: 90px;
     width: 90px;
-    background: #ffd616;
+    background: #438fff;
     border-radius: 100%;
     cursor: pointer
 }
@@ -3695,9 +3695,9 @@ body .ui-tooltip {
 }
 
 .about-us .value .view .play:hover .play-button {
-    background: #ffe727;
-    -webkit-box-shadow: 0 0 14px rgba(255, 231, 39, .3);
-    box-shadow: 0 0 14px rgba(255, 231, 39, .3)
+    background: #438eff
+    -webkit-box-shadow: 0 0 14px #438eff71;
+    box-shadow: 0 0 14px #438eff71
 }
 
 .about-us .value .view .play:hover .play-button svg {
@@ -3729,7 +3729,7 @@ body .ui-tooltip {
 }
 
 .about-us .services .item .icon svg polygon:nth-child(2) {
-    fill: #ffd616
+    fill: #438fff
 }
 
 .about-us .services .item .icon svg:nth-child(2) {
@@ -3748,11 +3748,11 @@ body .ui-tooltip {
 }
 
 .about-us .services .item:hover .icon svg polygon:nth-child(1) {
-    stroke: #ffe727
+    stroke: #438eff
 }
 
 .about-us .services .item:hover .icon svg polygon:nth-child(2) {
-    fill: #ffe727
+    fill:#438eff
 }
 
 .about-us .services .item:nth-child(2) .icon svg:nth-child(2) {
@@ -3797,7 +3797,7 @@ body .ui-tooltip {
 }
 
 .about-us .decoration svg.visible {
-    fill: #ffd616;
+    fill: #438fff;
     stroke: transparent;
     stroke-dasharray: 100% 0
 }
@@ -3852,7 +3852,7 @@ body .ui-tooltip {
 .our-advantages .list .item .icon svg {
     fill: transparent;
     height: 67px;
-    stroke: #ffd616;
+    stroke: #438fff;
     stroke-width: 2px;
     stroke-dasharray: 0 100%;
     position: absolute;
@@ -3903,7 +3903,7 @@ body .ui-tooltip {
 }
 
 .quote {
-    /*background:url(//static.yalanding.ru/assets/images/empire-state-building.jpg);*/
+    /*background:url(http://weblife.uz/assets/images/empire-state-building.jpg);*/
     background: bottom #f8f8fa;
     background-size: cover;
     padding-top: 211px;
@@ -4039,7 +4039,7 @@ body .ui-tooltip {
 }
 
 .quote .decoration svg.visible {
-    fill: #ffd616;
+    fill: #438fff;
     stroke: transparent;
     stroke-dasharray: 100% 0
 }
@@ -4066,7 +4066,7 @@ body .ui-tooltip {
 
 .quote .play-song {
     position: absolute;
-    background: #ffd616;
+    background: #438fff;
     border-radius: 100px;
     height: 50px;
     width: 246px;
@@ -4119,9 +4119,9 @@ body .ui-tooltip {
 }
 
 .quote .play-song:hover {
-    background: #fffe51;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438eff;
+    -webkit-box-shadow: 5px 5px 20px -5px #438eff71;
+    box-shadow: 5px 5px 20px -5px #438eff71
 }
 
 .our-team {
@@ -4226,9 +4226,9 @@ body .ui-tooltip {
 }
 
 .our-team .view .controls .control:hover {
-    background: #ffd616;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: 5px 5px 20px -5px #438eff71;
+    box-shadow: 5px 5px 20px -5px #438eff71
 }
 
 .our-team .view .controls .prev {
@@ -4340,7 +4340,7 @@ body .ui-tooltip {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
-    background: #ffd616;
+    background: #438fff;
     top: 9px;
     right: 12px;
     height: 44px;
@@ -4353,23 +4353,23 @@ body .ui-tooltip {
 }
 
 .about-landing .questions .item .head:hover {
-    -webkit-box-shadow: inset 3px 0 0 #ffd616;
-    box-shadow: inset 3px 0 0 #ffd616
+    -webkit-box-shadow: inset 3px 0 0 #438fff;
+    box-shadow: inset 3px 0 0 #438fff
 }
 
 .about-landing .questions .item .head:not(.active):hover:before {
-    background: #fff838;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438eff71;
+    -webkit-box-shadow: 5px 5px 20px -5px #438eff71;
+    box-shadow: 5px 5px 20px -5px #438eff71
 }
 
 .contact-popup,
 .preview .form {
-    box-shadow: inset 0 0 0 8px #ffd616, 3px 0 24px rgba(0, 0, 0, .13)
+    box-shadow: inset 0 0 0 8px #438fff, 3px 0 24px rgba(0, 0, 0, .13)
 }
 
 .about-landing .questions .item .head.active {
-    background: #ffd616
+    background: #438fff
 }
 
 .about-landing .questions .item .head.active:before {
@@ -4429,13 +4429,13 @@ body .ui-tooltip {
     top: -50px;
     right: -50px;
     cursor: pointer;
-    background: #ffd616;
+    background: #438fff;
     height: 46px;
     width: 46px
 }
 
 .video-popup .close:hover {
-    background: #fff838
+    background: #438eff71
 }
 
 .video-popup .close .top {
@@ -4452,7 +4452,7 @@ body .ui-tooltip {
     height: 457px;
     max-width: 100%;
     background: #fff;
-    box-shadow: inset 0 0 0 8px #ffd616, 3px 0 24px rgba(0, 0, 0, .13);
+    box-shadow: inset 0 0 0 8px #438fff, 3px 0 24px rgba(0, 0, 0, .13);
     position: relative;
     padding: 20px 52px 0
 }
@@ -4635,7 +4635,7 @@ body .ui-tooltip {
     border-radius: 100%;
     left: 0;
     top: 10px;
-    background: #ffd616
+    background: #438fff
 }
 
 .image-popup {
@@ -4732,7 +4732,7 @@ body .ui-tooltip {
     left: 50%;
     -webkit-transform: translate(-50%, 17px);
     transform: translate(-50%, 17px);
-    background: #ffd616
+    background: #438fff
 }
 
 #content-for-popup-about-landing-html .list-with-planes .item-text {
@@ -5117,7 +5117,7 @@ body .ui-tooltip {
 #content-for-popup-about-us-html .row:nth-child(2) .number-list .item .counter {
     position: absolute;
     border-radius: 100%;
-    background: #ffd616;
+    background: #438fff;
     left: -8px;
     top: -4px;
     width: 35px;
@@ -5231,7 +5231,7 @@ body .ui-tooltip {
     fill: transparent;
     height: 100%;
     width: 100%;
-    stroke: #ffd616;
+    stroke: #438fff;
     stroke-width: 2px;
     position: absolute;
     top: 50%;
@@ -5347,9 +5347,9 @@ body .ui-tooltip {
     height: 72px;
     width: 72px;
     border-radius: 100%;
-    background: #ffd616;
-    -webkit-box-shadow: 0 0 12px rgba(255, 214, 22, .7);
-    box-shadow: 0 0 12px rgba(255, 214, 22, .7);
+    background: #438fff;
+    -webkit-box-shadow: 0 0 12px #438eff71;
+    box-shadow: 0 0 12px #438eff71;
     color: #252323;
     margin: 0 auto 23px;
     font-size: 18px;
@@ -6830,13 +6830,13 @@ body .ui-tooltip {
     right: 0px;
     z-index: 99;
     cursor: pointer;
-    background: #ffd616;
+    background: #438fff;
     height: 46px;
     width: 46px
 }
 
 .popup-with-view__layout-close-button:hover {
-    background: #fff838
+    background: #438eff71
 }
 
 .popup-with-view__layout-close-button .top {
@@ -7275,7 +7275,7 @@ body .ui-tooltip {
 
 .payment-popup__header {
     height: 139px;
-    background: #ffd616;
+    background: #438fff;
     padding-left: 55px;
     padding-top: 43px;
     font-size: 44px;
@@ -7380,7 +7380,7 @@ body .ui-tooltip {
 }
 
 .payment-popup__tab-control.active .payment-popup__tab-control-icon {
-    background: #ffd616
+    background: #438fff
 }
 
 .payment-popup__tab-control.active .payment-popup__tab-control-icon svg {
@@ -7416,7 +7416,7 @@ body .ui-tooltip {
     width: 55px;
     left: 43px;
     top: 2px;
-    background: #ffd616;
+    background: #438fff;
     border-radius: 100%;
     padding-top: 16px
 }
@@ -7985,7 +7985,7 @@ body .ui-tooltip {
 }
 
 .preview .head .lang .item.active {
-    background: #ffd616
+    background: #438fff
 }
 
 .preview .head .lang .item:nth-child(2).active {
@@ -8172,7 +8172,7 @@ body .ui-tooltip {
     top: 194px;
     background: #fff;
     text-align: center;
-    box-shadow: inset 0 0 0 8px #ffd616, 3px 0 24px rgba(0, 0, 0, .13);
+    box-shadow: inset 0 0 0 8px #438fff, 3px 0 24px rgba(0, 0, 0, .13);
     z-index: 1
 }
 
@@ -8184,7 +8184,7 @@ body .ui-tooltip {
     transform: translate(-50%);
     height: 90px;
     width: 90px;
-    background: #ffd616;
+    background: #438fff;
     border-radius: 100%;
     cursor: pointer
 }
@@ -8204,9 +8204,9 @@ body .ui-tooltip {
 }
 
 .preview .play-button:hover {
-    background: #ffe727;
-    -webkit-box-shadow: 0 0 14px rgba(255, 231, 39, .3);
-    box-shadow: 0 0 14px rgba(255, 231, 39, .3)
+    background: #438eff;
+    -webkit-box-shadow: 0 0 14px #438eff71;
+    box-shadow: 0 0 14px #438eff71;
 }
 
 .preview .play-button:hover svg {
@@ -8548,9 +8548,9 @@ body .ui-tooltip {
 }
 
 .rates-block__offer-link:hover .rates-block__offer-link-icon {
-    background: #fffe51;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438eff;
+    -webkit-box-shadow: 5px 5px 20px -5px #438eff71;
+    box-shadow: 5px 5px 20px -5px #438eff71
 }
 
 .rates-block .rate {
@@ -8755,7 +8755,7 @@ body .ui-tooltip {
     font-family: lato, serif;
     border-radius: 100%;
     cursor: help;
-    background: #ffd616;
+    background: #438fff;
     font-size: 20px;
     font-weight: 500
 }
@@ -9035,13 +9035,13 @@ body .ui-tooltip {
     top: -50px;
     right: -50px;
     cursor: pointer;
-    background: #ffd616;
+    background: #438fff;
     height: 46px;
     width: 46px
 }
 
 .newsletter-callback-popup__close:hover {
-    background: #fff838
+    background: #438eff71;
 }
 
 .newsletter-callback-popup__close .top {
@@ -9371,7 +9371,7 @@ body .ui-tooltip {
 #content-for-popup-advantages-us-html ul li:before {
     content: "";
     position: absolute;
-    background-color: #ffd616;
+    background-color: #438fff;
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -9401,7 +9401,7 @@ span.utp-form__large-text {
 }
 
 .utp-form__large-text .prompt {
-    border: 1px solid #ffd616;
+    border: 1px solid #438fff;
     display: inline-block;
     border-radius: 50%;
     width: 25px;
@@ -9414,7 +9414,7 @@ span.utp-form__large-text {
     position: relative;
     top: -3px;
     left: 10px;
-    background-color: #ffd616
+    background-color: #438fff
 }
 
 .utp-form__large-text .prompt:hover {
@@ -9467,14 +9467,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-artnet-map-marker {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: 0 0;
     width: 77px;
     height: 104px
 }
 
 .icon-checkbox-arrow {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -245px -182px;
     width: 11px;
     height: 9px
@@ -9484,7 +9484,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-chevron-right {
     width: 45px;
     height: 45px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png)
 }
 
 .icon-chevron-left {
@@ -9496,21 +9496,21 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-failed {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -57px -104px;
     width: 57px;
     height: 57px
 }
 
 .icon-link-black {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -215px -182px;
     width: 30px;
     height: 25px
 }
 
 .icon-link-gold {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -177px -78px;
     width: 26px;
     height: 22px
@@ -9520,7 +9520,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-link-review-white {
     width: 46px;
     height: 46px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png)
 }
 
 .icon-link-review-gold {
@@ -9532,14 +9532,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-link-white {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -77px -77px;
     width: 26px;
     height: 22px
 }
 
 .icon-music-note {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -154px -78px;
     width: 23px;
     height: 25px
@@ -9549,7 +9549,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-prev {
     width: 17px;
     height: 28px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png)
 }
 
 .icon-next {
@@ -9561,14 +9561,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-purple-flag {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -154px 0;
     width: 61px;
     height: 78px
 }
 
 .icon-rouble-circle {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: -77px 0;
     width: 77px;
     height: 77px
@@ -9582,7 +9582,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-social-yt {
     width: 48px;
     height: 47px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png)
 }
 
 .icon-social-fb {
@@ -9610,7 +9610,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-success {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(http://weblife.uz/assets/icons/sprite-icon.png);
     background-position: 0 -104px;
     width: 57px;
     height: 57px
@@ -9691,5 +9691,10 @@ div[data-load-content="contact_block_ru"] .text .icon {
         height: 52px
     }
 }
-
+.logo-p {
+    font-size: 30px;
+    margin: 0;
+    color: inherit;
+    font-weight: bolder;
+}
 /*.global-main > div#contacts,.global-main > div.full-contact,.global-main > div.about-landing,.global-main > div.contact-block,.global-main > div.our-team,.global-main > div.quote,.global-main > div.our-advantages{overflow:hidden !important;}*/

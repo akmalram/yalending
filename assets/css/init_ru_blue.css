@@ -41,7 +41,8 @@ main {
 .utp-form__button,
 footer .last-row .friendship .newsletter .enter button {
     background: #438fff;
-    cursor: pointer
+    color: #fff;
+    cursor: pointer;
 }
 
 #content-for-popup-about-us-html .row:nth-child(5) .button:hover,
@@ -62,9 +63,9 @@ footer .last-row .friendship .newsletter .enter button {
 .rates-block__footer-button:hover,
 .utp-form__button:hover,
 footer .last-row .friendship .newsletter .enter button:hover {
-    background: #fff838;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: #438fff71;
+    box-shadow: #438fff71
 }
 
 #content-for-popup-about-us-html .row:nth-child(5) .button,
@@ -218,7 +219,6 @@ footer .decoration svg {
 }
 
 footer {
-    height: 1655px;
     background: rgba(11, 11, 17, .88);
     position: relative
 }
@@ -441,7 +441,7 @@ footer .last-row .friendship .social .list .icon.tw {
 }
 
 footer .last-row .friendship .social .list .icon.gp {
-    background: #f36d4f
+    background: #438fff
 }
 
 footer .last-row .friendship .social .list .icon.gp svg {
@@ -449,7 +449,7 @@ footer .last-row .friendship .social .list .icon.gp svg {
 }
 
 footer .last-row .friendship .social .list .icon.yt {
-    background: #ef4647
+    background: #438fff
 }
 
 footer .last-row .friendship .social .list .icon.in {
@@ -585,7 +585,7 @@ footer .last-row .lang .item {
 
 footer .last-row .lang .item.active {
     background: #438fff;
-    color: #1f1a17
+    color: #fff
 }
 
 footer .last-row .lang .item:nth-child(2).active {
@@ -648,7 +648,7 @@ footer .decoration svg:nth-child(2) {
     box-shadow: 1px 2px 5px rgba(0, 0, 0, .26);
     font-size: 12px;
     font-weight: 500;
-    color: #0a0a0a;
+    color: #fff;
     line-height: 1.4
 }
 
@@ -836,7 +836,7 @@ form .confirm-data-privacy .text .link:hover {
 }
 
 .success-message .icon.gp {
-    background: #f36d4f
+    background: #438fff
 }
 
 .success-message .icon.gp svg {
@@ -844,7 +844,7 @@ form .confirm-data-privacy .text .link:hover {
 }
 
 .success-message .icon.yt {
-    background: #ef4647
+    background: #438fff
 }
 
 .success-message .icon.in {
@@ -864,7 +864,7 @@ form .confirm-data-privacy .text .link:hover {
 }
 
 #icon-social-yt .bicls-2 {
-    fill: #ef4647
+    fill: #438fff
 }
 
 .content-block {
@@ -1087,7 +1087,7 @@ a {
 ::-webkit-scrollbar-thumb:hover {
     border-width: 1px 1px 1px 2px;
     border-color: #555;
-    background-color: #fff838
+    background-color: #438fff
 }
 
 ::-webkit-scrollbar-track {
@@ -1701,7 +1701,7 @@ body .ui-tooltip {
 
 .global-navigate .menu .anchors .item.active {
     background: #438fff;
-    color: #000
+    color: #fff;
 }
 
 .global-navigate .logotype {
@@ -1814,7 +1814,7 @@ body .ui-tooltip {
 }
 
 .global-navigate .side-block .item .icon svg {
-    stroke: #000;
+    stroke: #fff;
     stroke-width: 2px;
     stroke-dasharray: 0, 100%;
     fill: transparent;
@@ -1846,12 +1846,12 @@ body .ui-tooltip {
 }
 
 .global-navigate .side-block .item.else .prompt .plane {
-    background: #5c69ff;
+    background: #438fff;
     color: #fff
 }
 
 .global-navigate .side-block .item.else .icon {
-    background: #5c69ff;
+    background: #438fff;
     padding-left: 13px;
     padding-top: 10px
 }
@@ -1861,7 +1861,7 @@ body .ui-tooltip {
 }
 
 .global-navigate .side-block .item.else .icon:before {
-    background: #5c69ff
+    background: #438fff
 }
 
 .global-navigate .side-block .item .text {
@@ -2005,7 +2005,7 @@ body .ui-tooltip {
 
 #menu .anchors .item.active {
     background: #438fff;
-    color: #000
+    color: #fff;
 }
 
 #menu.show {
@@ -2054,7 +2054,8 @@ body .ui-tooltip {
 }
 
 #menu .controls .lang .item.active {
-    background: #438fff
+    background: #438fff;
+    color: #fff;
 }
 
 #menu .controls .close {
@@ -2106,7 +2107,7 @@ body .ui-tooltip {
 }
 
 #menu .footer .services .item .icon svg {
-    stroke: #000;
+    stroke: #fff;
     stroke-width: 2px;
     fill: transparent;
     position: relative
@@ -2132,7 +2133,7 @@ body .ui-tooltip {
 }
 
 #menu .footer .services .item.else .icon {
-    background: #5c69ff;
+    background: #438fff;
     padding-left: 16px;
     padding-top: 9px
 }
@@ -2142,11 +2143,11 @@ body .ui-tooltip {
 }
 
 #menu .footer .services .item.else .icon:before {
-    background: #5c69ff
+    background: #438fff
 }
 
 #menu .footer .services .item .text {
-    color: #2e2a28;
+    color: #000;
     padding-top: 31px;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -2311,7 +2312,7 @@ body .ui-tooltip {
 }
 
 .portfolio .item .results .wrap .advantages-list .advantage .head {
-    color: #151515;
+    color: #fff;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 500;
@@ -2319,7 +2320,7 @@ body .ui-tooltip {
 }
 
 .portfolio .item .results .wrap .advantages-list .advantage .value {
-    color: #151515;
+    color: #fff;
     text-transform: uppercase;
     line-height: 1.7;
     font-weight: 700;
@@ -2328,7 +2329,7 @@ body .ui-tooltip {
 
 .portfolio .item .results .link {
     position: absolute;
-    color: #151515;
+    color: #fff;
     font-weight: 500;
     font-size: 18px;
     padding-left: 65px;
@@ -2346,7 +2347,7 @@ body .ui-tooltip {
     width: 46px;
     -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
-    background: #151515;
+    background: #000;
     border-radius: 100%
 }
 
@@ -2508,7 +2509,7 @@ body .ui-tooltip {
 
 .portfolio .decoration svg * {
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: 1px;
     stroke-dasharray: 0 100%
 }
@@ -2811,7 +2812,7 @@ body .ui-tooltip {
 .interjection .advantages-list .item .colored {
     font-size: 95px;
     font-weight: 600;
-    color: #5c69ff;
+    color: #438fff;
     float: none;
     display: inline-block;
     margin-left: 20px;
@@ -2855,7 +2856,7 @@ body .ui-tooltip {
 .interjection .decoration .wrap svg {
     float: right;
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: 1px;
     stroke-dasharray: 0 100%
 }
@@ -2908,17 +2909,20 @@ body .ui-tooltip {
 }
 
 .work-schedule .head {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     font-family: lato, serif;
     position: relative;
     z-index: 1
 }
 
 .work-schedule .head .item {
-    float: left;
     text-align: center;
     margin-right: 116px;
     position: relative;
-    cursor: pointer
+    cursor: pointer;
+    float: none !important;
 }
 
 .work-schedule .head .item .counter {
@@ -2929,13 +2933,14 @@ body .ui-tooltip {
     color: #252323;
     margin: 0 auto 23px;
     font-size: 24px;
+    font-family: roboto, arial, serif;
     font-weight: 800;
     padding-top: 28px
 }
 
 .work-schedule .head .item .text {
     font-family: 'roboto', arial;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
     color: #252323;
     text-transform: uppercase;
@@ -2976,8 +2981,10 @@ body .ui-tooltip {
 
 .work-schedule .head .item.active .counter {
     background: #438fff;
-    -webkit-box-shadow: 0 0 12px rgba(255, 214, 22, .7);
-    box-shadow: 0 0 12px rgba(255, 214, 22, .7)
+    -webkit-box-shadow: 0 0 12px #438fff;
+    box-shadow: 0 0 12px #438fff;
+    color: #fff;
+    font-family: roboto, arial, serif;
 }
 
 .work-schedule .head .item.active .text {
@@ -3101,7 +3108,7 @@ body .ui-tooltip {
 }
 
 .work-schedule .main .slide .decoration svg * {
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: .5px;
     stroke-dasharray: 0 100%;
     fill: transparent
@@ -3294,13 +3301,13 @@ body .ui-tooltip {
 }
 
 .work-schedule .afterword .text .colored {
-    color: #ff0f3a;
+    color: #438fff;
     border-bottom: 1px dotted transparent;
     cursor: pointer
 }
 
 .work-schedule .afterword .text .colored:hover {
-    border-bottom: 1px dotted #ff0f3a
+    border-bottom: 1px dotted #438fff
 }
 
 .work-schedule .afterword svg {
@@ -3332,7 +3339,7 @@ body .ui-tooltip {
 }
 
 .contact-block {
-    padding-top: 425px;
+    padding-top: 300px;
     padding-bottom: 88px;
     position: relative
 }
@@ -3362,7 +3369,7 @@ body .ui-tooltip {
 }
 
 .contact-block .text .colored {
-    color: #5c69ff
+    color: #438fff
 }
 
 .contact-block .text .colored .number {
@@ -3416,7 +3423,7 @@ body .ui-tooltip {
     position: relative;
     font-size: 16px;
     font-weight: 700;
-    color: #5c69ff
+    color: #438fff
 }
 
 .contact-block form .another-elements .counter .image {
@@ -3583,7 +3590,7 @@ body .ui-tooltip {
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: 1px;
     stroke-dasharray: 0 100%
 }
@@ -3634,7 +3641,7 @@ body .ui-tooltip {
 }
 
 .about-us .value .text .link {
-    color: #5c69ff;
+    color: #438fff;
     cursor: pointer
 }
 
@@ -3682,7 +3689,7 @@ body .ui-tooltip {
 
 .about-us .value .view .play .play-button svg {
     fill: transparent;
-    stroke: #383431;
+    stroke: #fff;
     stroke-width: 1.5px;
     stroke-dasharray: 100% 0;
     top: 50%;
@@ -3695,9 +3702,9 @@ body .ui-tooltip {
 }
 
 .about-us .value .view .play:hover .play-button {
-    background: #ffe727;
-    -webkit-box-shadow: 0 0 14px rgba(255, 231, 39, .3);
-    box-shadow: 0 0 14px rgba(255, 231, 39, .3)
+    background: #438fff;
+    -webkit-box-shadow: 0 0 14px #438eff71;
+    box-shadow: 0 0 14px #438eff71;
 }
 
 .about-us .value .view .play:hover .play-button svg {
@@ -3732,6 +3739,10 @@ body .ui-tooltip {
     fill: #438fff
 }
 
+.about-us .services .item .icon svg use {
+    fill: #fff;
+}
+
 .about-us .services .item .icon svg:nth-child(2) {
     position: absolute;
     top: 50%;
@@ -3748,11 +3759,11 @@ body .ui-tooltip {
 }
 
 .about-us .services .item:hover .icon svg polygon:nth-child(1) {
-    stroke: #ffe727
+    stroke: #438fff
 }
 
 .about-us .services .item:hover .icon svg polygon:nth-child(2) {
-    fill: #ffe727
+    fill: #438fff
 }
 
 .about-us .services .item:nth-child(2) .icon svg:nth-child(2) {
@@ -3791,7 +3802,7 @@ body .ui-tooltip {
 .about-us .decoration svg {
     position: absolute;
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: .6px;
     stroke-dasharray: 0 100%
 }
@@ -3940,7 +3951,7 @@ body .ui-tooltip {
 }
 
 .quote .value .text .link {
-    color: #5c69ff;
+    color: #438fff;
     display: inline-block;
     height: 30px;
     width: 30px;
@@ -3973,7 +3984,7 @@ body .ui-tooltip {
 }
 
 .quote .value .text .link.gp {
-    background: #f36d4f
+    background: #438fff
 }
 
 .quote .value .text .link.gp svg {
@@ -3981,7 +3992,7 @@ body .ui-tooltip {
 }
 
 .quote .value .text .link.yt {
-    background: #ef4647
+    background: #438fff
 }
 
 .quote .value .text .link.in {
@@ -4003,7 +4014,6 @@ body .ui-tooltip {
 .our-team .view .plane .item .head,
 .quote .play-song__text {
     font-weight: 700;
-    text-shadow: 1px 1px 1px #f8f8fa, 0 0 1px #f8f8fa;
     letter-spacing: 1px;
     text-transform: uppercase
 }
@@ -4033,7 +4043,7 @@ body .ui-tooltip {
 .quote .decoration svg {
     position: absolute;
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: 1px;
     stroke-dasharray: 0 100%
 }
@@ -4103,7 +4113,7 @@ body .ui-tooltip {
 .quote .play-song__text {
     float: left;
     font-size: 14px;
-    color: #333
+    color: #fff
 }
 
 .quote .play-song__text::-moz-selection {
@@ -4119,136 +4129,55 @@ body .ui-tooltip {
 }
 
 .quote .play-song:hover {
-    background: #fffe51;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: #438fff71;
+    box-shadow: #438fff71
 }
 
 .our-team {
-    padding-top: 156px
+    padding: 50px 0;
 }
 
-.our-team .title {
-    text-align: left;
-    padding-left: 70px;
-    margin-bottom: 66px
+.our-team .flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
 }
 
-.our-team .stack {
-    display: none
+.our-team .item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 350px;
+    max-width: 20%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 5px;
+    margin-bottom: 30px;
 }
 
-.our-team .view {
-    float: left;
-    width: 100%;
-    position: relative;
-    background: #fcfcfe
+@media only screen and (max-width: 1024px) {
+    .our-team .item {
+        max-height: auto;
+    }
 }
 
-.our-team .view .plane {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 0;
-    -webkit-transition: all 1s linear;
-    transition: all 1s linear
+@media only screen and (max-width: 520px) {
+    .our-team .item {
+        width: 90%;
+        height: 400px;
+    }
 }
 
-.our-team .view .plane .item {
-    float: left;
-    width: 33.33333%;
-    height: 100%;
-    background-size: cover !important;
-    opacity: 0;
-    -webkit-transition: all 1s ease-in;
-    transition: all 1s ease-in;
-    position: relative
-}
-
-.our-team .view .plane .item:nth-child(2) {
-    -webkit-transition-delay: .3s;
-    transition-delay: .3s
-}
-
-.our-team .view .plane .item:nth-child(3) {
-    -webkit-transition-delay: .6s;
-    transition-delay: .6s
-}
-
-.our-team .view .plane .item .head {
+.our-team .item .head {
     font-size: 33px;
-    color: #5c69ff;
-    width: 100%;
+    font-weight: 600;
+    color: #fff;
     text-align: center;
-    position: absolute;
-    top: 475px;
-    -webkit-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    line-height: 1.4
-}
-
-.our-team .view .plane.active {
-    z-index: 1
-}
-
-.our-team .view .plane.active .item {
-    opacity: 1
-}
-
-.our-team .view:before {
-    content: ' ';
-    float: left;
-    padding-bottom: 39.2%
-}
-
-.our-team .view .controls {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 0
-}
-
-.our-team .view .controls .control {
-    position: absolute;
-    top: 0;
-    border-radius: 100%;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-    z-index: 2;
-    background: #fff;
-    text-align: center;
-    padding-top: 12px;
-    opacity: 0
-}
-
-.our-team .view .controls .control:hover {
-    background: #438fff;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
-}
-
-.our-team .view .controls .prev {
-    left: 2%
-}
-
-.our-team .view .controls .prev .icon {
-    margin-left: -5px
-}
-
-.our-team .view .controls .next {
-    right: 2%
-}
-
-.our-team .view .controls .next .icon {
-    margin-right: -5px
-}
-
-.our-team .view:hover .controls .control {
-    opacity: 1
 }
 
 .contact-popup .close:hover,
@@ -4349,7 +4278,8 @@ body .ui-tooltip {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 1px;
-    padding-top: 7px
+    padding-top: 7px;
+    color: #fff;
 }
 
 .about-landing .questions .item .head:hover {
@@ -4358,9 +4288,9 @@ body .ui-tooltip {
 }
 
 .about-landing .questions .item .head:not(.active):hover:before {
-    background: #fff838;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: #438fff71;
+    box-shadow: #438fff71
 }
 
 .contact-popup,
@@ -4369,12 +4299,14 @@ body .ui-tooltip {
 }
 
 .about-landing .questions .item .head.active {
-    background: #438fff
+    background: #438fff;
+    color: #fff;
 }
 
 .about-landing .questions .item .head.active:before {
     background: #fff;
-    content: '-'
+    content: '-';
+    color: #000;
 }
 
 .about-landing .questions .item .answer {
@@ -4435,7 +4367,7 @@ body .ui-tooltip {
 }
 
 .video-popup .close:hover {
-    background: #fff838
+    background: #438fff
 }
 
 .video-popup .close .top {
@@ -5348,8 +5280,8 @@ body .ui-tooltip {
     width: 72px;
     border-radius: 100%;
     background: #438fff;
-    -webkit-box-shadow: 0 0 12px rgba(255, 214, 22, .7);
-    box-shadow: 0 0 12px rgba(255, 214, 22, .7);
+    -webkit-box-shadow: 0 0 12px #438fff;
+    box-shadow: 0 0 12px #438fff;
     color: #252323;
     margin: 0 auto 23px;
     font-size: 18px;
@@ -5551,7 +5483,8 @@ body .ui-tooltip {
     }
 
     .work-schedule .head .item {
-        margin-right: 70px
+        margin-right: 70px;
+        padding-top: 15px;
     }
 
     .work-schedule .main .slide .text .description {
@@ -5619,7 +5552,8 @@ body .ui-tooltip {
     }
 
     .work-schedule .head .item {
-        margin-right: 33px
+        margin-right: 33px;
+        padding-top: 15px;
     }
 
     .global-main .contact-block.rekomend,
@@ -6422,7 +6356,8 @@ body .ui-tooltip {
     }
 
     .quote .view img {
-        max-width: 90%
+        max-width: 90%;
+        transform: none;
     }
 
     .our-advantages .list .item {
@@ -6653,7 +6588,7 @@ body .ui-tooltip {
     }
 
     .global-navigate .side-block .company-info .phone {
-        font-size: 20px;
+        font-size: 17px;
         display: inline-block;
         margin-top: 3px;
         margin-bottom: 4px
@@ -6836,7 +6771,7 @@ body .ui-tooltip {
 }
 
 .popup-with-view__layout-close-button:hover {
-    background: #fff838
+    background: #438fff
 }
 
 .popup-with-view__layout-close-button .top {
@@ -7128,7 +7063,7 @@ body .ui-tooltip {
 .utp-form__colored-text {
     font-size: 16px;
     font-weight: 700;
-    color: #5c69ff
+    color: #438fff
 }
 
 .utp-form__large-text {
@@ -7203,7 +7138,7 @@ body .ui-tooltip {
 .utp-form__footer-phone {
     font-size: 26px;
     font-weight: 600;
-    color: #5c69ff;
+    color: #438fff;
     margin-top: 6px;
     margin-bottom: 8px;
     display: inline-block
@@ -7454,9 +7389,9 @@ body .ui-tooltip {
 }
 
 .payment-popup__main .payment-form .description .text a {
-    color: #5c69ff;
-    -webkit-box-shadow: 0 1px 0 #5c69ff;
-    box-shadow: 0 1px 0 #5c69ff
+    color: #438fff;
+    -webkit-box-shadow: 0 1px 0 #438fff;
+    box-shadow: 0 1px 0 #438fff
 }
 
 .payment-popup__main .payment-form form {
@@ -7647,7 +7582,7 @@ body .ui-tooltip {
 
 .payment-popup__rate:nth-child(2) .payment-popup__rate-head,
 .payment-popup__rate:nth-child(2) .payment-popup__rate-order {
-    background: #5c69ff;
+    background: #438fff;
     color: #fff
 }
 
@@ -7985,7 +7920,8 @@ body .ui-tooltip {
 }
 
 .preview .head .lang .item.active {
-    background: #438fff
+    background: #438fff;
+    color: #fff;
 }
 
 .preview .head .lang .item:nth-child(2).active {
@@ -8048,11 +7984,11 @@ body .ui-tooltip {
 
 .preview .content h1 {
     font-size: 45px;
-    color: #202020;
+    color: #fff;
     font-weight: 600;
     margin-bottom: 15px;
     background: #438fff;
-    display: inline-block;
+    display: inline;
     padding: 5px 9px;
     line-height: 1.55
 }
@@ -8144,7 +8080,7 @@ body .ui-tooltip {
 }
 
 .preview .content .advantage-list .item use {
-    stroke: #5c69ff;
+    stroke: #438fff;
     fill: transparent;
     stroke-width: 2px;
     stroke-dasharray: 0, 100%
@@ -8191,7 +8127,7 @@ body .ui-tooltip {
 
 .preview .play-button svg {
     fill: transparent;
-    stroke: #383431;
+    stroke: #fff;
     stroke-width: 1.5px;
     stroke-dasharray: 100% 0;
     top: 50%;
@@ -8204,9 +8140,9 @@ body .ui-tooltip {
 }
 
 .preview .play-button:hover {
-    background: #ffe727;
-    -webkit-box-shadow: 0 0 14px rgba(255, 231, 39, .3);
-    box-shadow: 0 0 14px rgba(255, 231, 39, .3)
+    background: #438fff;
+    -webkit-box-shadow: 0 0 14px #438fff71;
+    box-shadow: 0 0 14px #438fff71;
 }
 
 .preview .play-button:hover svg {
@@ -8227,7 +8163,7 @@ body .ui-tooltip {
 
 .preview .decoration svg * {
     fill: transparent;
-    stroke: #fc8245;
+    stroke: #438fff;
     stroke-width: 1px;
     stroke-dasharray: 0 100%
 }
@@ -8492,6 +8428,7 @@ body .ui-tooltip {
     width: 56px;
     border-radius: 100%;
     background: #438fff;
+    color: #fff;
     margin-right: 15px;
     font-size: 22px;
     font-weight: 700;
@@ -8530,7 +8467,7 @@ body .ui-tooltip {
 
 .rates-block__offer-link-icon svg {
     fill: transparent;
-    stroke: #333;
+    stroke: #fff;
     stroke-width: 2.5px;
     position: absolute;
     top: 50%;
@@ -8548,9 +8485,9 @@ body .ui-tooltip {
 }
 
 .rates-block__offer-link:hover .rates-block__offer-link-icon {
-    background: #fffe51;
-    -webkit-box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4);
-    box-shadow: 5px 5px 20px -5px rgba(255, 214, 22, .4)
+    background: #438fff;
+    -webkit-box-shadow: 5px 5px 20px -5px #438eff71;
+    box-shadow: 5px 5px 20px -5px #438eff71;
 }
 
 .rates-block .rate {
@@ -8567,7 +8504,7 @@ body .ui-tooltip {
 .rates-block .rate .head {
     font-size: 36px;
     font-weight: 800;
-    color: #151515;
+    color: #fff;
     text-align: center;
     height: 129px;
     background: #438fff;
@@ -8752,6 +8689,7 @@ body .ui-tooltip {
     transform: translate(0, -50%);
     width: 25px;
     height: 25px;
+    color: white;
     font-family: lato, serif;
     border-radius: 100%;
     cursor: help;
@@ -8768,16 +8706,16 @@ body .ui-tooltip {
 }
 
 .rates-block .rate:nth-child(2) .head {
-    background: #5c69ff;
+    background: #438fff;
     color: #fff
 }
 
 .rates-block .rate:nth-child(2) .services .item:before {
-    background: #5c69ff
+    background: #438fff
 }
 
 .rates-block .rate:nth-child(2) .order {
-    background: #5c69ff;
+    background: #438fff;
     color: #fff
 }
 
@@ -8788,12 +8726,12 @@ body .ui-tooltip {
 }
 
 .rates-block .rate:nth-child(2) .bonus {
-    -webkit-box-shadow: inset 0 0 0 3px #5c69ff;
-    box-shadow: inset 0 0 0 3px #5c69ff
+    -webkit-box-shadow: inset 0 0 0 3px #438fff;
+    box-shadow: inset 0 0 0 3px #438fff
 }
 
 .rates-block .rate:nth-child(2) .bonus .prompt {
-    background: #5c69ff;
+    background: #438fff;
     color: #fff
 }
 
@@ -8842,7 +8780,7 @@ body .ui-tooltip {
 }
 
 .rates-block__footer-text_colored {
-    color: #fa0e4b
+    color: #438fff;
 }
 
 .rates-block__footer-afterword {
@@ -9041,7 +8979,7 @@ body .ui-tooltip {
 }
 
 .newsletter-callback-popup__close:hover {
-    background: #fff838
+    background: #438fff
 }
 
 .newsletter-callback-popup__close .top {
@@ -9093,7 +9031,7 @@ body .ui-tooltip {
 }
 
 .newsletter-callback-popup .icon.gp {
-    background: #f36d4f
+    background: #438fff
 }
 
 .newsletter-callback-popup .icon.gp svg {
@@ -9101,7 +9039,7 @@ body .ui-tooltip {
 }
 
 .newsletter-callback-popup .icon.yt {
-    background: #ef4647
+    background: #438fff
 }
 
 .newsletter-callback-popup .icon.in {
@@ -9409,7 +9347,7 @@ span.utp-form__large-text {
     line-height: 16px;
     padding: 4px 4px;
     font-size: 16px;
-    color: #252323;
+    color: #fff;
     text-align: center;
     position: relative;
     top: -3px;
@@ -9418,17 +9356,17 @@ span.utp-form__large-text {
 }
 
 .utp-form__large-text .prompt:hover {
-    border-color: #e63323;
-    color: #e63323;
+    border-color: #438fff;
+    color: #438fff;
     background-color: transparent
 }
 
 .contact-block.rekomend {
-    height: 862px
+    height: 600px
 }
 
 .colored-red-strong {
-    color: #e63323;
+    color: #438fff;
     font-weight: 600
 }
 
@@ -9439,10 +9377,10 @@ div[data-load-content="contact_block_ru"] .text {
 }
 
 div[data-load-content="contact_block_ru"] .text .icon {
-    color: #5c69ff;
+    color: #438fff;
     font-style: normal;
     border-radius: 50%;
-    border: 1px solid #5c69ff;
+    border: 1px solid #438fff;
     text-align: center;
     padding: 27px 0;
     line-height: 24px;
