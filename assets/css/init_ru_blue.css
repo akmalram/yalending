@@ -2246,11 +2246,12 @@ body .ui-tooltip {
     right: 70px;
     top: 76px
 }
-
+img {
+    max-width: 100%;
+}
 .portfolio .item .view .content .logotype {
     margin-bottom: 21px;
-    -webkit-transform: translate(-50%);
-    transform: translate(-50%)
+    max-width: 200px;
 }
 
 .portfolio .item .view .content .name {
@@ -3054,7 +3055,7 @@ body .ui-tooltip {
     opacity: 0;
     -webkit-transition: all .6s linear;
     transition: all .6s linear;
-    font-family: lato, serif
+    font-family: roboto, arial, serif;
 }
 
 .work-schedule .main .slide .text {
@@ -4162,7 +4163,7 @@ body .ui-tooltip {
 
 @media only screen and (max-width: 1024px) {
     .our-team .item {
-        max-height: auto;
+        max-width: 100%;
     }
 }
 
