@@ -12,7 +12,7 @@ $msg = $_POST['message'];
 $message = "Имя: {$name}\n";
 $message .= "Телефон: {$phone}\n";
 $message .= "Почта: {$email}\n";
-$message .= "Сообщение: {$message}\n";
+$message .= "Сообщение: {$msg}\n";
 $message .= "От куда: {$hidden}\n";
 
 	$url = 'https://api.telegram.org/bot' . $API_KEY . '/sendMessage?';
