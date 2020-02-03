@@ -22,6 +22,12 @@ main {
     margin-left: 3px;
 }
 
+button,
+input[type="button"],
+input[type="submit"] {
+    -webkit-appearance: none;
+}
+
 #content-for-popup-about-us-html .row:nth-child(5) .button,
 .about-landing .text .learn-more,
 .about-us .learn-more,
@@ -252,6 +258,13 @@ footer .contacts .list {
     float: left;
     width: 50%;
     max-width: 100%
+}
+
+footer .contacts .list iframe {
+    max-width: 100%;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #fff;
 }
 
 footer .contacts .list .head {
@@ -485,6 +498,7 @@ footer .last-row .friendship .newsletter .head {
     border-radius: 25px;
     font-weight: 700;
     font-size: 14px;
+    margin: 0 auto;
     margin-top: 53px;
     margin-bottom: 16px
 }
@@ -510,13 +524,13 @@ footer .last-row .friendship .newsletter .enter .sp-form input[type=text],
 footer .last-row .friendship .newsletter .enter .sp-form optgroup,
 footer .last-row .friendship .newsletter .enter .sp-form select,
 footer .last-row .friendship .newsletter .enter .sp-form textarea {
-    font-family: roboto, arial, sans-serif !important
+    font-family: 'Gilroy', arial, sans-serif !important;
 }
 
 body,
 input,
 textarea {
-    font-family: roboto, arial, serif
+    font-family: 'Gilroy', arial, serif
 }
 
 footer .last-row .friendship .newsletter .enter .sp-message.sp-message-success>p:first-child {
@@ -1643,7 +1657,7 @@ body .ui-tooltip {
 .global-navigate {
     position: relative;
     left: 0;
-    top: 0;
+    top: 0 !important;
     width: 100%;
     height: 80px;
     background: #fff;
@@ -1773,6 +1787,7 @@ body .ui-tooltip {
 }
 
 .global-navigate .side-block .item .value-wrap {
+    display: flex;
     overflow: hidden;
     padding-left: 95px;
     position: absolute;
@@ -1780,7 +1795,6 @@ body .ui-tooltip {
     top: 0;
     height: 100%;
     width: 100%;
-    display: block
 }
 
 .global-navigate .side-block .item .prompt {
@@ -1866,9 +1880,10 @@ body .ui-tooltip {
 
 .global-navigate .side-block .item .text {
     color: #2e2a28;
-    padding-top: 34px;
     position: relative;
-    min-width: 161px
+    min-width: 161px;
+    display: block;
+    margin: auto 0;
 }
 
 .global-navigate .side-block .item:hover .icon:before {
@@ -2370,7 +2385,7 @@ img {
 
 .portfolio .item .results .link .text:before {
     content: ' ';
-    background: #151515;
+    background: #ffffff;
     left: 0;
     width: 100%;
     height: 1px;
@@ -2899,7 +2914,7 @@ img {
 .work-schedule {
     position: relative;
     height: 1202px;
-    /*background:url(//static.yalanding.ru/assets/images/something-company.jpg);*/
+    /*background:url(/assets/images/something-company.jpg);*/
     background: bottom #f8f8fa;
     background-size: auto 100%;
     padding-top: 170px
@@ -2934,13 +2949,13 @@ img {
     color: #252323;
     margin: 0 auto 23px;
     font-size: 24px;
-    font-family: roboto, arial, serif;
+    font-family: 'Gilroy', sans-serif;
     font-weight: 800;
     padding-top: 28px
 }
 
 .work-schedule .head .item .text {
-    font-family: 'roboto', arial;
+    font-family: 'Gilroy', arial;
     font-size: 14px;
     font-weight: 800;
     color: #252323;
@@ -2985,7 +3000,7 @@ img {
     -webkit-box-shadow: 0 0 12px #438fff;
     box-shadow: 0 0 12px #438fff;
     color: #fff;
-    font-family: roboto, arial, serif;
+    font-family: 'Gilroy', sans-serif;
 }
 
 .work-schedule .head .item.active .text {
@@ -3055,7 +3070,7 @@ img {
     opacity: 0;
     -webkit-transition: all .6s linear;
     transition: all .6s linear;
-    font-family: roboto, arial, serif;
+    font-family: 'Gilroy', sans-serif;
 }
 
 .work-schedule .main .slide .text {
@@ -3296,7 +3311,7 @@ img {
     font-size: 22px;
     font-weight: 500;
     color: #252323;
-    font-family: Roboto, arial, serif;
+    font-family: 'Gilroy', sans-serif;
     text-align: center;
     line-height: 2.1
 }
@@ -3476,7 +3491,7 @@ img {
 }
 
 .full-contact {
-    /*background:url(//static.yalanding.ru/assets/images/something-dude.jpg);*/
+    /*background:url(/assets/images/something-dude.jpg);*/
     background: bottom #f8f8fa;
     background-size: auto 100%;
     padding-top: 176px;
@@ -3555,7 +3570,7 @@ img {
     padding-top: 28px;
     background: #f8f8fa;
     resize: none;
-    font-family: Roboto, arial, serif;
+    font-family: 'Gilroy', sans-serif;
     margin-bottom: 55px
 }
 
@@ -3606,8 +3621,8 @@ img {
     position: relative;
     -webkit-box-shadow: inset 0 2px 0 #e8e8e8, inset 0 -2px 0 #e8e8e8;
     box-shadow: inset 0 2px 0 #e8e8e8, inset 0 -2px 0 #e8e8e8;
-    padding-top: 173px;
-    padding-bottom: 114px
+    padding-top: 80px;
+    padding-bottom: 80px
 }
 
 .about-us .title {
@@ -3651,7 +3666,7 @@ img {
     height: 205px;
     position: relative;
     float: left;
-    background: url(//static.yalanding.ru/assets/images/artnet-video-background.jpg) center no-repeat;
+    background: url(/assets/images/artnet-video-background.jpg) center no-repeat;
     background-size: cover;
     margin-top: 4px;
     margin-left: 93px;
@@ -3832,16 +3847,16 @@ img {
 .about-us .decoration .image {
     position: absolute;
     bottom: 0;
-    left: calc(50% - 150px)
+    left: calc(47% - 150px)
 }
 
 .our-advantages {
-    padding-top: 202px;
+    padding-top: 95px;
     padding-bottom: 74px
 }
 
 .our-advantages .title {
-    margin-bottom: 160px
+    margin-bottom: 95px
 }
 
 .our-advantages .list {
@@ -3915,7 +3930,7 @@ img {
 }
 
 .quote {
-    /*background:url(//static.yalanding.ru/assets/images/empire-state-building.jpg);*/
+    /*background:url(/assets/images/empire-state-building.jpg);*/
     background: bottom #f8f8fa;
     background-size: cover;
     padding-top: 211px;
@@ -4080,12 +4095,25 @@ img {
     background: #438fff;
     border-radius: 100px;
     height: 50px;
-    width: 246px;
+    width: 200px;
     top: 130px;
     right: 224px;
-    padding-top: 17px;
-    padding-left: 32px;
+    padding: 17px;
     cursor: pointer
+}
+
+@media only screen and (max-width: 520px) {
+    .quote .play-song {
+        position: static;
+        float: right;
+        width: 171px;
+        font-size: 18px;
+        padding: 10px;
+        height: auto;
+        display: flex;
+        align-items: center;
+        transform: translateY(-5px);
+    }
 }
 
 .quote .play-song__icon {
@@ -4136,7 +4164,7 @@ img {
 }
 
 .our-team {
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .our-team .flex-around {
@@ -4144,21 +4172,27 @@ img {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    margin: 40px 0;
+    margin-top: 40px;
 }
 
 .our-team .item {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 350px;
-    max-width: 20%;
-    height: 500px;
+    width: 300px;
+    height: 390px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     border-radius: 5px;
     margin-bottom: 30px;
+    transition: all .3s ease;
+    box-shadow: inset 0px -100px 91px #000000b0;
+}
+
+.our-team .item:hover {
+    box-shadow: 0 20px 60px rgba(67,143,255, 0.2);
+    transform: translateY(-3px);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -4175,7 +4209,7 @@ img {
 }
 
 .our-team .item .head {
-    font-size: 33px;
+    font-size: 30px;
     font-weight: 600;
     color: #fff;
     text-align: center;
@@ -5527,7 +5561,6 @@ img {
 
     #content-for-popup-about-us-html .row:nth-child(6) .some-else-list .decoration,
     .contact-block .decoration,
-    .quote .play-song,
     .work-schedule .main .slide .decoration .image {
         display: none
     }
@@ -6241,7 +6274,7 @@ img {
     }
 
     .quote .value .button {
-        margin-bottom: 75px
+        margin-bottom: 50px
     }
 
     .image-popup {
@@ -8322,7 +8355,8 @@ img {
     .preview .content .description {
         margin-bottom: 30px;
         line-height: 1.3;
-        font-size: 16px
+        font-size: 16px;
+        text-align: left;
     }
 
     .preview .content .advantage-list {
@@ -8336,9 +8370,13 @@ img {
 }
 
 @media screen and (max-width:400px) {
+    .preview .content {
+        text-align: center;
+    }
+
     .preview .content h1 {
         font-size: 26px;
-        padding: 3px 5px
+        padding: 3px 5px;
     }
 
     .preview .form {
@@ -8356,7 +8394,8 @@ img {
     }
 
     .preview .content .advantage-list .item .text {
-        font-size: 14px
+        text-align: left;
+        font-size: 14px;
     }
 }
 
@@ -8564,7 +8603,7 @@ img {
     -webkit-box-shadow: inset 0 0 0 1px #c5c7cd;
     box-shadow: inset 0 0 0 1px #c5c7cd;
     color: #c5c7cd;
-    font-family: lato, serif;
+    font-family: 'Gilroy', sans-serif;
     border-radius: 100%;
     display: inline-block;
     margin-left: 8px;
@@ -8691,7 +8730,6 @@ img {
     width: 25px;
     height: 25px;
     color: white;
-    font-family: lato, serif;
     border-radius: 100%;
     cursor: help;
     background: #438fff;
@@ -8733,6 +8771,7 @@ img {
 
 .rates-block .rate:nth-child(2) .bonus .prompt {
     background: #438fff;
+    font-family: 'Gilroy', sans-serif;
     color: #fff
 }
 
@@ -8892,7 +8931,7 @@ img {
     }
 
     .rates-block .title {
-        margin-bottom: 50px
+        margin-bottom: 20px
     }
 
     .rates-block .list .rate {
@@ -9406,14 +9445,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-artnet-map-marker {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: 0 0;
     width: 77px;
     height: 104px
 }
 
 .icon-checkbox-arrow {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -245px -182px;
     width: 11px;
     height: 9px
@@ -9423,7 +9462,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-chevron-right {
     width: 45px;
     height: 45px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(/assets/icons/sprite-icon.png)
 }
 
 .icon-chevron-left {
@@ -9435,21 +9474,21 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-failed {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -57px -104px;
     width: 57px;
     height: 57px
 }
 
 .icon-link-black {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -215px -182px;
     width: 30px;
     height: 25px
 }
 
 .icon-link-gold {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -177px -78px;
     width: 26px;
     height: 22px
@@ -9459,7 +9498,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-link-review-white {
     width: 46px;
     height: 46px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(/assets/icons/sprite-icon.png)
 }
 
 .icon-link-review-gold {
@@ -9471,14 +9510,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-link-white {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -77px -77px;
     width: 26px;
     height: 22px
 }
 
 .icon-music-note {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -154px -78px;
     width: 23px;
     height: 25px
@@ -9488,7 +9527,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-prev {
     width: 17px;
     height: 28px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(/assets/icons/sprite-icon.png)
 }
 
 .icon-next {
@@ -9500,14 +9539,14 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-purple-flag {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -154px 0;
     width: 61px;
     height: 78px
 }
 
 .icon-rouble-circle {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: -77px 0;
     width: 77px;
     height: 77px
@@ -9521,7 +9560,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 .icon-social-yt {
     width: 48px;
     height: 47px;
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png)
+    background-image: url(/assets/icons/sprite-icon.png)
 }
 
 .icon-social-fb {
@@ -9549,7 +9588,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
 }
 
 .icon-success {
-    background-image: url(//static.yalanding.ru/assets/icons/sprite-icon.png);
+    background-image: url(/assets/icons/sprite-icon.png);
     background-position: 0 -104px;
     width: 57px;
     height: 57px
@@ -9612,7 +9651,7 @@ div[data-load-content="contact_block_ru"] .text .icon {
     }
 
     .contact-block.else {
-        padding-top: 90px
+        padding-top: 30px
     }
 
     .our-advantages .list {
@@ -9623,6 +9662,10 @@ div[data-load-content="contact_block_ru"] .text .icon {
 @media(max-width:400px) {
     footer .contacts .list .item .value {
         font-size: 20px
+    }
+
+    footer .contacts .list iframe {
+        height: 250px;
     }
 
     footer .last-row .left-side .logotype svg {

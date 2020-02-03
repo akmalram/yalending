@@ -3695,9 +3695,9 @@ body .ui-tooltip {
 }
 
 .about-us .value .view .play:hover .play-button {
-    background: #438eff
+    background: #438eff;
     -webkit-box-shadow: 0 0 14px #438eff71;
-    box-shadow: 0 0 14px #438eff71
+    box-shadow: 0 0 14px #438eff71;
 }
 
 .about-us .value .view .play:hover .play-button svg {
